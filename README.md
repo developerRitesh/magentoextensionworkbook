@@ -22,6 +22,16 @@ Requirements:
 1. Admin should be able to change customer password from the admin.
 2. Customer should get an email intimation that his/her password has been changed by admin , please contact admin to know your password 
 
+Create a new theme for mobile (difficulty level:2)
+-------------------------------------------------------------------------------
+
+Explanation : admin need a different homepage for mobile users , so when anyone open mobile page the load time can be reduced 
+
+Requirements:
+
+1. Desktop homepage should be different from mobile homepage (app/design/Themename folder)
+2. need to implement lazy loading on the homepage , the html data which is scrollable should load through ajax in mobile , to save loading time (app/code/Lazyloading)
+
 
 Create a new module so that customer can enter Gst Number into the system (difficulty level:4)
 --------------------------------------------------------------------------
@@ -31,6 +41,15 @@ Requirements:
 2. Customer should be able to view + edit gst number from his account. 
 3. Admin should be able to edit view + edit gst number from backend. 
 4. No manual entry should be into the database (either use installSchema.php or db_schema.xml)
+
+Create a  banner slider extension (difficulty level:4)
+--------------------------------------------------------------------------
+Requirements:
+
+1. banner slider should be visible on the homepage. 
+2. there should be provision to add+edit+delete banners from the backend.
+3. there should be provision for alernate image for mobile if website is viewed in mobile 
+4. banner links should be configurable from backend , admin should also have the ability to rearrange banner position from the backend so that he could decide which one will load first .
 
 Order Review functionality  (difficulty level : 5)
 ------------------------------------------------------------------------------
