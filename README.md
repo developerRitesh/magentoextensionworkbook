@@ -55,7 +55,7 @@ Requirements:
 5. Customer photo should be visible on (minicart+header section)
 
 
-Crate a shipping method where the customer can select a warehouse to  pick up the item itself instead of  home delivery (difficulty level:8)
+Create a shipping method where the customer can select a warehouse to  pick up the item itself instead of  home delivery (difficulty level:8)
 ------------------------------------------------------------------------------------------------
 Explanation : Customer want to order jacuzzi bathtub of  ceremic and  due to  its excetional weight , it is  non deliverable  and the customer have to go directly to  the nearest  warehouse to receive their  item  
 
