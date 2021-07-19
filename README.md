@@ -1,17 +1,8 @@
 All module should have namespace "OM" , All Submission should be only through git account , Everyone need to create a folder name will their own name , in that folder there will be another folder named OM , and all your module will be in the same firectory , for example Ritesh/OM/Modulename
+---------------------------------------
 
 
 
-Order Review functionality  (difficulty level : 5)
-------------------------------------------------------------------------------
-
-Requirements:
-
-1. Customer should get a mail for  the feedback on the recently  ordered product/products , order id and item should  be listed  on it  .
-2. Email  template  should be configurable from the backend , admin should be able to change the text  
-3. Customer  should  have provision to mark order exprience with stars from 1 to  5 , five being exellent  , 1 for poor
-4. Email should be  send to user after 1  day  of  the order , This  should be configurable from the  backend ,so  that admin can change this. (that means , you  have to create cron funcitonality)
-5. Admin should  be able  to  view  customer feedbacks  and  there should be provision to  download the reviews  in csv  from the admin.
 
 
 Create a module to show best selling products to customer order succesfull mail (difficulty level:2)
@@ -40,6 +31,18 @@ Requirements:
 2. Customer should be able to view + edit gst number from his account. 
 3. Admin should be able to edit view + edit gst number from backend. 
 4. No manual entry should be into the database (either use installSchema.php or db_schema.xml)
+
+Order Review functionality  (difficulty level : 5)
+------------------------------------------------------------------------------
+
+Requirements:
+
+1. Customer should get a mail for  the feedback on the recently  ordered product/products , order id and item should  be listed  on it  .
+2. Email  template  should be configurable from the backend , admin should be able to change the text  
+3. Customer  should  have provision to mark order exprience with stars from 1 to  5 , five being exellent  , 1 for poor
+4. Email should be  send to user after 1  day  of  the order , This  should be configurable from the  backend ,so  that admin can change this. (that means , you  have to create cron funcitonality)
+5. Admin should  be able  to  view  customer feedbacks  and  there should be provision to  download the reviews  in csv  from the admin.
+
 
 Create a new module so that customer can update its photo (difficulty level:5)
 --------------------------------------------------------------------------
