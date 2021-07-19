@@ -1,4 +1,4 @@
-All module should have namespace "OM" , All Submission should be only through git account , Everyone need to create a folder name will their own name , in that folder there will be another folder named OM , and all your module will be in the same firectory , for example Ritesh/OM/Modulename
+All module should have namespace "OM" , All Submission should be only through git account , Everyone need to create a folder name will their own name , in that folder there will be another folder named OM , and all your module will be in the same directory , for example Ritesh/OM/Modulename
 ---------------------------------------
 
 
