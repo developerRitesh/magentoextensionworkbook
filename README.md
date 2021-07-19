@@ -51,14 +51,24 @@ Requirements:
 1. Customer should be able to insert photo at the time of registration.
 2. Customer should be able to view + edit photo from his account. 
 3. Admin should be able to edit view + edit photo from backend. 
-4. No manual entry should be into the database (either use installSchema.php or db_schema.xml)
-5.Customer photo should be visible on (minicart+header section)
+4. No manual entry should be into the database (either use installSchema.php or db_schema.xml).
+5. Customer photo should be visible on (minicart+header section)
 
 
 Crate a shipping method where the customer can select a warehouse to  pick up the item itself instead of  home delivery (difficulty level:8)
 ------------------------------------------------------------------------------------------------
 Explanation : Customer want to order jacuzzi bathtub of  ceremic and  due to  its excetional weight , it is  non deliverable  and the customer have to go directly to  the nearest  warehouse to receive their  item  
 
+Requirements:
+1. There should be an new shipping method named pickup from warehouse 
+2. on clicking the shipping method there should be a select down from where customer can select the warehouse near to him for example 
+a.) pickup from gurgaon warehouse 
+b.) pickup from faridabad
+c.) pickup from delhi 
+3. on selecting a warehouse its address should be displayed to user 
+4. Customer shipment charges should be zero if warehouse delivery is selected , as customer will pickup order itself from warehouse.
+5. Admin should have provision to add+delte+edit a warehouse name and its address
+6. Order mail and shiping invoice should have warehouse address mentioned on it .
 
 Create a new module so that customer can enter po number (purchase order number) at the time of placing an order (difficulty level:9)
 ----------------------------------------------------------------------------------------------------------------
