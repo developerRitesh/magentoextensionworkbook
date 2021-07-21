@@ -11,6 +11,16 @@ Requirements:
 
 1. Best Seller product should be send along the order  confirmation mail with the heading "You May Also Like"
 
+Create a module to disable add to cart functionality if the product price is less than 500 (difficulty level:4)
+------------------------------------------------------------------------------
+Requirements: seller want to disable add to cart for any item whose amount is less than 500 , keep in mind if the product cost is 100 and customer orders 5 quantities than add to cart should work 
+
+1. admin should be able to insert mimum amount for add to cart , product wise.
+2. admin should be able to select product on which minimum amount coundition should be applicable , if he remove the consition on specific product of 10 rs , than add to cart should work , but keep in mind customer will still not be able to place the order if total cart amount is less than 500.
+3. customer should not be able to  place order if the cart minimum amount is not greator than 500
+4. cart minimum amount should be configurable from backend
+5. admin should not be able to insert negetive number or string in the minimum amount for add to cart or for checkout 
+6. also keep in mind that if order total is already greator than 500 , then add to cart should work even if customer order product of 10 rs
 
 Create a module so that admin can change customer password (difficulty level:2)
 -------------------------------------------------------------------------------
