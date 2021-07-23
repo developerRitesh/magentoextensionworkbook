@@ -1,7 +1,11 @@
 All module should have namespace "OM" , All Submission should be only through git account , Everyone need to create a folder name will their own name , in that folder there will be another folder named OM , and all your module will be in the same directory , for example Ritesh/OM/Modulename
 ---------------------------------------
 
-   
+Remove customer account links  (difficulty level:1)
+------------------------------------------------------------------------------
+Requirements: admin do not have downlodable product , yet when the customer goes to account section , Download Product link is shown 
+1. Remove the link My Downloadable Products and Stored Payment Methods from customer account and move "Newsletter Subscriptions" link at the bottom . 
+2. using css to hint any element is not allowed , all customisations should be from  .xml files
 
 Remove Header and footer from the checkout pages  (difficulty level:1)
 ------------------------------------------------------------------------------
