@@ -11,6 +11,10 @@ Run Offer on the website  (difficulty level:0.5)
 ------------------------------------------------------------------------------
 Requirements: admin want to give 20% of all products belonging from a specific category 
 
+Bulk upload special price and quantity   (difficulty level:0.5)
+------------------------------------------------------------------------------
+Requirements: admin want a  sheet to bulk update special price and quantity of all products on the website , prepare an import sheet for  the  same  
+
 Remove customer account links  (difficulty level:1)
 ------------------------------------------------------------------------------
 Requirements: admin do not have downlodable product , yet when the customer goes to account section , Download Product link is shown 
