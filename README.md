@@ -1,6 +1,12 @@
 All module should have namespace "OM" , All Submission should be only through git account , Everyone need to create a folder name will their own name , in that folder there will be another folder named OM , and all your module will be in the same directory , for example Ritesh/OM/Modulename
 ---------------------------------------
 
+Create a new admin  (difficulty level:0.5)
+------------------------------------------------------------------------------
+Requirements: admin want to give acess to admin panel to his seo team , but does not want to share his own password or the sales data with seo team 
+1. create a new admin with the user Role "Seo"
+2. seo users should only have access to following menus  "Marketting","Content","Catalog" .
+
 Run Offer on the website  (difficulty level:0.5)
 ------------------------------------------------------------------------------
 Requirements: admin want to give 20% of all products belonging from a specific category 
