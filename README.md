@@ -61,6 +61,16 @@ Requirements:
 2. Related products should be actually related , If customer open a certian category then related products should be also shown to that specific category
 3. related product price should also be similar to current product , bariation should not be more than 25% of actual price of product .
 
+Add New language (difficulty level:3)
+-------------------------------------------------------------------------------
+
+Explanation : Admin want to show his website in english and in hindi 
+
+Requirements:
+
+1. there should be a select dropdown from where the user can select the language 
+2. on selecting hindi , all the text should be displayed in hindi.
+
 Create a module to disable add to cart functionality if the product price is less than 500 (difficulty level:4)
 ------------------------------------------------------------------------------
 Requirements: seller want to disable add to cart for any item whose amount is less than 500 , keep in mind if the product cost is 100 and customer orders 5 quantities than add to cart should work 
