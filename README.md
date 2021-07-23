@@ -1,9 +1,14 @@
 All module should have namespace "OM" , All Submission should be only through git account , Everyone need to create a folder name will their own name , in that folder there will be another folder named OM , and all your module will be in the same directory , for example Ritesh/OM/Modulename
 ---------------------------------------
 
+   
 
+Remove Header and footer from the checkout pages  (difficulty level:1)
+------------------------------------------------------------------------------
+Requirements: when the customer  proceed to  checkout ,the  admin want  to  remove header and  footer  so  that customer does  not  get temptation to go back or to  click  another link ,
 
-
+1. no header or  footer should  be present at last step  i.e websiteurl.com/checkout , the url with name  checkout should not contain header  or  footer or minicart  or menu or  category ..header  and  footer should be completly  removed 
+2. using css to  hide any element is not  allowed  
 
 Create a module to show best selling products to customer order succesfull mail (difficulty level:2)
 ------------------------------------------------------------------------------
@@ -22,15 +27,14 @@ Requirements:
 1. Admin should be able to change customer password from the admin.
 2. Customer should get an email intimation that his/her password has been changed by admin , please contact admin to know your password 
 
-Create a new theme for mobile (difficulty level:2)
--------------------------------------------------------------------------------
 
-Explanation : admin need a different homepage for mobile users , so when anyone open mobile page the load time can be reduced 
+Create a  magento controller to show dynamic data  (difficulty level:2)
+------------------------------------------------------------------------------
+Requirements: 
 
-Requirements:
-
-1. Desktop homepage should be different from mobile homepage (app/design/Themename folder)
-2. need to implement lazy loading on the homepage , the html data which is scrollable should load through ajax in mobile , to save loading time (app/code/Lazyloading)
+1. create a magento controller  with the url websiteurl/offers which show 2 image  banners on the  website . 
+2. admin should be  able to  change these 2  images for  web  as well as  for  mobile ..that means if he wants to show  different images for mobile and different  images for website , he  should be able to  do  so
+3. url in both mobile  and website  should be same ,using  css  is  not  allowed  to  hide any image.(hint: you need to  create new theme for mobile different  from desktop )
 
 Create an extension for automatic related products (difficulty level:3)
 -------------------------------------------------------------------------------
