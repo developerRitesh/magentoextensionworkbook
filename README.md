@@ -13,7 +13,7 @@ Requirements: admin want to give 20% of all products belonging from a specific c
 
 Bulk upload special price and quantity   (difficulty level:0.5)
 ------------------------------------------------------------------------------
-Requirements: admin want a  sheet to bulk update special price and quantity of all products on the website , prepare an import sheet for  the  same  
+Requirements: admin want a  sheet to bulk update products price , special price and quantity of all products on the website , prepare an import sheet for  the  same  named product_price.csv
 
 Remove customer account links  (difficulty level:1)
 ------------------------------------------------------------------------------
@@ -21,9 +21,6 @@ Requirements: admin do not have downlodable product , yet when the customer goes
 1. Remove the link My Downloadable Products and Stored Payment Methods from customer account and move "Newsletter Subscriptions" link at the bottom . 
 2. using css to hint any element is not allowed , all customisations should be from  .xml files
 
-Create a new admin  (difficulty level:1)
-------------------------------------------------------------------------------
-Requirements: admin want to update 500 products price , special price and quantity , so he handed out the sheet to you , update price and quantity . prepare a sheet named product_price.csv and hand it back to admin so that he can update the above. 
 
 
 Remove Header and footer from the checkout pages  (difficulty level:1)
